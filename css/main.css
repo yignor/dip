@@ -99,3 +99,27 @@ a:first-child {
   font-weight: bold;
   text-transform: uppercase;
 }
+.main-pluses {
+  margin-left: 23px;
+  margin-right: 23px;
+}
+.athlets{
+  height: 100vh;
+  width: 100vw;
+  background-color: #fff;
+
+}
+h2 {
+  text-transform: uppercase;
+  font-size: 50px;
+  font-weight: bold;
+  color: #e7e7e7;
+}
+picture {
+  align-content: center;
+}
+.list {
+  display: flex;
+  flex-wrap: wrap;
+  
+}
