@@ -2,33 +2,77 @@
   margin: 0;
   padding: 0;
 }
+
 body {
   font-family: Opensans, san-serif;
+
   }
 .start-page {
   background-image: url(../images/football_767.jpg);
   background-repeat: no-repeat;
   background-position: center center;
-  background-size: 100%;
+  background-size: cover;
   background-color: #000;
   position: relative;
   height: 100vh;
   width: 100vw;
+  z-index: -2
 }
 .start-page::after {
   content: "";
-  background-color: 1b1837;
+  background-color: #212548;
   position: absolute;
   top: 0;
   left: 0;
   right: 0;
   bottom: 0;
-  opacity: 0.45;
+  opacity: 0.8;
+  z-index: -1;
+}
+.header {
+  /*padding: 0 20px;*/
 }
 
+.start-conteiner {
+  padding: 0 20px;
+}
 .header-logo {
+  display: block;
   height: 36px;
   width: 133px;
+  padding-top: 33px;
+  padding-bottom: 137px;
+  margin: 0 auto;
   fill: #fff;
-  margin-top: 33px;
 }
+
+h1  {
+  font-size: 28px;
+  text-transform: uppercase;
+  font-weight: bold; 
+  color: #fff;
+}
+.header-h2 {
+  display: block;
+  padding-left: 44px;
+  padding-top: 29px;
+}
+.icon {
+  fill: #fff;
+  width: 20px;
+  height: 24px;
+}
+
+.a-icon {
+  display: block;
+  text-decoration: none;
+  background-color: #5e42b0;
+  height: 35px;
+  border-radius: 17px;
+  padding: 0 auto;
+}
+.ios-label {
+  display: flex;
+  flex-wrap: wrap;
+}
+
