@@ -74,23 +74,28 @@ h1  {
 a {
   text-decoration: none;
   color: #fff;
+  display: block;
+}
+a:first-child {
+  margin-bottom: 14px;
 }
 .nav-conteiner {
   background-color: #5e42b0;
   height: 35px;
   border-radius: 17px;
-  padding: 0 auto;
-
-}
-.nav-conteiner:first-child {
-  margin-bottom: 14px;
-}
-
-.a-icon {
   display: flex;
-  margin: auto;
+  justify-content: center;
+  align-items: center;
 }
-
+.download-app {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  margin-left: 9px;
+}
 .nav-label {
- /* display: flex;*/
+  color: #fff;
+  font-size: 8px;
+  font-weight: bold;
+  text-transform: uppercase;
 }
