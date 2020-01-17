@@ -41,7 +41,7 @@ body {
   height: 36px;
   width: 133px;
   padding-top: 33px;
-  padding-bottom: 137px;
+  padding-bottom: 120px;
   margin: 0 auto;
   fill: #fff;
 }
@@ -63,16 +63,34 @@ h1  {
   height: 24px;
 }
 
-.a-icon {
-  display: block;
+.mob-apps {
+  display: flex;
+  flex-wrap: wrap;
+
+  flex-direction: column;
+  justify-content: space-between;
+  margin-top: 87px;
+}
+a {
   text-decoration: none;
+  color: #fff;
+}
+.nav-conteiner {
   background-color: #5e42b0;
   height: 35px;
   border-radius: 17px;
   padding: 0 auto;
+
 }
-.ios-label {
-  display: flex;
-  flex-wrap: wrap;
+.nav-conteiner:first-child {
+  margin-bottom: 14px;
 }
 
+.a-icon {
+  display: flex;
+  margin: auto;
+}
+
+.nav-label {
+ /* display: flex;*/
+}
