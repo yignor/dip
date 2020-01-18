@@ -80,6 +80,7 @@ a {
 a:first-child {
   margin-bottom: 14px;
 }
+
 .nav-conteiner {
   align-items: center;
   height: 35px;
@@ -127,13 +128,14 @@ h2 {
   padding-left: 23px; 
   padding-right: 23px;
 }
-picture {
+.footballer {
   position: absolute;
   z-index: 1;
-  top: 45%;
+  top: 40%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
+
 .athe-header {
   position: relative;
   display: flex;
@@ -203,22 +205,40 @@ h3 {
 }
 .last-block::after {
   content: "";
-  background-color: #212548;
+  background-color: #202346;
   position: absolute;
   top: 0;
   left: 0;
   right: 0;
   bottom: 0;
-  opacity: 0.8;
+  opacity: 0.9;
   z-index: -1;
 }
 .last-logo {
   display: block;
   height: 46px;
   width: 57px;
-  padding-top: 33px;
-  padding-bottom: 120px;
-  margin: 0 auto;
+  margin-top: 33px;
+  margin-bottom: 120px;
+  margin-left: auto;
+  margin-right: auto;
   fill: #fff;
   background-color: #7050cc;
+}
+.dl-conteiner {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.dl-title {
+  font-size: 32px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #fff;
+}
+.dl-descripton {
+  font-size: 14px;
+  font-weight: normal;
+  text-transform: uppercase;
+  color: #9b8ec1;
 }
