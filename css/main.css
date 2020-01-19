@@ -180,16 +180,40 @@ h3 {
   padding-right: 23px;
   display: flex;
 }
+
 .count-h {
   color: #000;
   margin-right: 10px;
-  display: block;
+  font-size: 14px;
+  font-weight: bold;
 }
 .coun-h::after {
   content: "";
+  display: block;
   background-color: #5e42b0;
   height: 4px;
   margin-top: 3px;
+}
+.article-list {
+  position: relative;
+}
+.count-block {
+  position: absolute;
+  top: -70%;
+  left: 10%;
+}
+  
+.count-ah {
+  display: flex;
+  width: 70px;
+  height: 78px;
+  background-color: #5e42b0;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  margin-right: 10px;
+  font-size: 14px;
+  font-weight: bold;
 }
 
 .last-block {
@@ -242,3 +266,4 @@ h3 {
   text-transform: uppercase;
   color: #9b8ec1;
 }
+
