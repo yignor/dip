@@ -1,3 +1,4 @@
+@media (max-width: 767px) {
 * {
   margin: 0;
   padding: 0;
@@ -159,18 +160,18 @@ p {
   padding-left: 23px; 
   padding-right: 23px;
 }
-.athe-list {
-  background-color: #000;
+.athe-list-item {
+  background-color: #fafafa;
   width: 100%;
   padding-top: 60px;
 }
-.athe-list:nth-child(2n+2) {
-  background-color: #fafafa;
+.athe-list-item:nth-child(2n+5) {
+  background-color: #fff;
 }
-.athe-list:nth-child(3) {
-  background-color: #f5f4f9;
+.athe-list-item:nth-child(3n) {
+  background-color: #5e42b0;
 }
-.athe-list:nth-child(4n) {
+.athe-list:nth-child(4n+1) {
   background-color: #5e42b0;
 }
 h3 {
@@ -314,3 +315,4 @@ h3 {
 }
 
 
+}
