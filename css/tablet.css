@@ -2,24 +2,6 @@
 
 .start-page {
   background-image: url(../images/football_1280.jpg);
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
-  background-color: #000;
-  position: relative;
-  z-index: -2;
-}
-
-.start-page::after {
-  content: "";
-  background-color: #212449;
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  opacity: 0.8;
-  z-index: -1;
 }
 
 .start-conteiner {

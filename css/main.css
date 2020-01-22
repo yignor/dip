@@ -14,7 +14,7 @@ body {
   background-size: cover;
   background-color: #000;
   position: relative;
-  z-index: -2
+  z-index: -2;
 }
 
 .start-page::after {
@@ -171,6 +171,7 @@ p {
   padding-top: 60px;
   padding-left: 23px; 
   padding-right: 23px;
+  width: 100%
 }
 
 .athe-list-item:first-child, .play-list-item:first-child {

@@ -1,0 +1,106 @@
+@media (min-width: 1920px) {
+
+.start-page {
+  background-image: url(../images/football_1920.jpg);
+}
+
+.header-logo {
+	padding-top: 45px;
+	height: 52px;
+	width: 190px;
+	padding-bottom: 296px;
+}
+
+h1 {
+	font-size: 90px;
+	margin-left: 12px;
+}
+
+.start-conteiner {
+  padding-left: 181px;
+  padding-right: 181px;
+}
+
+.header-h2 {
+	padding-left: 452px;
+	padding-top: 27px;
+}
+
+.a-icon {
+  height: 77px;
+  width: 311px;
+  flex-wrap: nowrap;
+  padding: auto;
+}
+
+.icon {
+  fill: #fff;
+  width: 41px;
+  height: 44px;
+}
+
+.mob-apps {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 223px;
+  padding-bottom: 110px;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+  background-color: #5e42b0;
+  border-radius: 40px;
+}
+
+a:first-child {
+  margin-right: 50px;
+}
+
+.nav-conteiner {
+width: 100%;
+height: 100%;
+justify-content: center;
+
+}
+
+.download-app {
+  margin-left: 284px;
+  margin-left: 28px;
+}
+
+.nav-label {
+  color: #fff;
+  font-size: 14px;
+  font-weight: 100;
+  text-transform: uppercase;
+}
+
+.ios-label, .android-label {
+  font-weight: bold;
+}
+
+h2 {
+	padding-top: 116px;
+	font-size: 80px;
+	padding-left: 827px;	
+}
+
+.footballer {
+	position: absolute;
+  	z-index: 1;
+  	top: 30%;
+  	left: 0%;
+}
+
+.athe-list-item {
+  padding-left: 827px;
+  padding-right: 33px;
+  padding-top: 0;
+}
+
+
+
+}
