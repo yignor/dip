@@ -297,7 +297,7 @@ h3 {
   padding-top: 34px;
 }
   
-.article-p{
+.article-p {
   padding-top: 0;
   font-size: 16px;
   line-height: 20px;
@@ -362,7 +362,6 @@ h3 {
   display: block;
   height: 46px;
   width: 57px;
- /* margin-top: 33px;*/
   margin-bottom: 59px;
   padding: 13px 6px;
   margin-left: auto;
@@ -370,7 +369,6 @@ h3 {
   fill: #fff;
   background: radial-gradient(80% 50%, #7656d6, #51379b);
   border-radius: 15%;
-  /*background-color: #7050cc;*/
 }
 
 .dl-conteiner {

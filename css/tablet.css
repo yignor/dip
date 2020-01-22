@@ -104,47 +104,107 @@ justify-content: center;
   font-weight: bold;
 }
 
+/* Закончили шапку, пошли верстать спортсменов */
+
 h2 {
   font-size: 80px;
   padding-left: 0;
   padding-top: 86px;
-  margin-bottom: 86px;
+  margin-bottom: 20px;
 }
 
 .footballer {
-  .footballer {
   position: absolute;
   z-index: 1;
 /*  top: 30%;
   left: 20%;*/
-  left: -20%;
-  top: 60%;
+  left: -21%;
+  top: 40%;
 }
 
 
 .athe-list-item, .athe-header {
   padding-left: 293px;
-  padding-right: 34px;
-  background-color: #fff;
+  padding-right: 33px;
   padding-top: 0;
 }
 
 p {
-  padding-top: 35px;
+  padding-top: 33px;
+  font-size: 16px;
+  line-height: 32px;
+  padding-bottom: 40px;
 }
 
+.athe-list-item:first-child, .play-list-item:first-child {
+  margin-top: 0px;
+}
 
+.athe-list-item, .play-list-item {
+  padding-top: 40px;
+  background-color: #fff;
+}
 
+.basket {
+position: absolute;
+  z-index: 1;
+  top: 30%;
+  right: 0;
+/*  display: block;
+  margin: 0 auto;*/
+}
+ 
+.play-list-item, .players-header {
+  padding-right: 309px;
+  padding-left: 33px;
+}
 
+.playp:nth-child(3) .play-p {
+  font-size: 18px;
+}
 
+.count-ah {
+  width: 116px;
+  height: 116px;
+  font-size: 24px;
 
+}
 
+.count-ah::after {
+ width: 25px;
+}
 
+h3 {
+}
 
+.article-h {
+  padding-bottom: 23px;
+  padding-top: 75px;
+  font-size: 80px;
+  line-height: normal;
+}
 
+.article-p {
+  font-size: 24px;
+  line-height: normal;
+}
 
+.article-content, .last-conteiner {
+  margin-left: 33px;
+  margin-right: 33px;
+}
 
+.last-conteiner {
+  padding-top: 126px;
+  padding-left: 0;
+  padding-right: 0;
+}
 
+.last-logo {
+  width: 130px;
+  height: 136px;
+  padding: 24px 12px;
+}
 
 
 
