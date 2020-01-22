@@ -206,8 +206,20 @@ h3 {
   padding: 24px 12px;
 }
 
+.dl-title {
+  font-size: 80px;
+  text-align: center;
+}
 
+.dl-descripton {
+  font-size: 36px;
+  margin-bottom: 198px;
+  text-align: center;
+}
 
-
+.foot {
+  margin-top: -29px;
+  padding-bottom: 23px;
+}
 
 }
