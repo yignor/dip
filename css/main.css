@@ -173,7 +173,7 @@ p {
   padding-right: 23px;
 }
 
-.athe-list-item:first-child {
+.athe-list-item:first-child, .play-list-item:first-child {
   margin-top: -60px;
 }
 
