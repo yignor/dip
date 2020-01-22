@@ -116,7 +116,7 @@ a:first-child {
   background-color: #fff;
   display: flex;
   flex-wrap: wrap;
-  width: 100%;
+  /*width: 100%;*/
 }
 
 .article-img {
@@ -154,7 +154,7 @@ margin: 0 auto;
 
 .athe-header, .players-header {
   position: relative;
-  width: 100%
+  /*width: 100%*/
 }
 
 p {
@@ -171,7 +171,7 @@ p {
   padding-top: 60px;
   padding-left: 23px; 
   padding-right: 23px;
-  width: 100%
+  /*width: 100%*/
 }
 
 .athe-list-item:first-child, .play-list-item:first-child {

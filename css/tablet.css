@@ -93,6 +93,7 @@ h2 {
   padding-left: 0;
   padding-top: 86px;
   margin-bottom: 20px;
+  padding-right: 0;
 }
 
 .footballer {
@@ -100,7 +101,7 @@ h2 {
   z-index: 1;
 /*  top: 30%;
   left: 20%;*/
-  left: -21%;
+  left: -22%;
   top: 40%;
 }
 
@@ -131,7 +132,7 @@ p {
 position: absolute;
   z-index: 1;
   top: 30%;
-  right: 0;
+  right: -13%;
 /*  display: block;
   margin: 0 auto;*/
 }
