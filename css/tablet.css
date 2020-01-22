@@ -7,7 +7,7 @@
   background-size: cover;
   background-color: #000;
   position: relative;
-  z-index: -2
+  z-index: -2;
 }
 
 .start-page::after {
@@ -50,6 +50,12 @@ h1  {
   padding-left: 108px;
   padding-top: 32px;
 }
+.a-icon {
+  height: 77px;
+  width: 311px;
+  flex-wrap: nowrap;
+  padding: auto;
+}
 
 .icon {
   fill: #fff;
@@ -59,15 +65,16 @@ h1  {
 
 .mob-apps {
   display: flex;
-  margin-left: auto;
-  margin-right: auto;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  justify-content: center;
 }
 
 a {
   text-decoration: none;
   color: #fff;
   background-color: #5e42b0;
-  border-radius: 17px;
+  border-radius: 40px;
 }
 
 a:first-child {
@@ -75,17 +82,15 @@ a:first-child {
 }
 
 .nav-conteiner {
-  /*align-items: center;*/
-  height: 77px;
-  display: flex;
-  width: 311px;
-  flex-grow: 0;
+width: 100%;
+height: 100%;
+justify-content: center;
+
 }
 
 .download-app {
-  display: flex;
-  flex-direction: column;
-  margin-left: 9px;
+  margin-left: 284px;
+  margin-left: 28px;
 }
 
 .nav-label {
@@ -99,9 +104,34 @@ a:first-child {
   font-weight: bold;
 }
 
+h2 {
+  font-size: 80px;
+  padding-left: 0;
+  padding-top: 86px;
+  margin-bottom: 86px;
+}
+
+.footballer {
+  .footballer {
+  position: absolute;
+  z-index: 1;
+/*  top: 30%;
+  left: 20%;*/
+  left: -20%;
+  top: 60%;
+}
 
 
+.athe-list-item, .athe-header {
+  padding-left: 293px;
+  padding-right: 34px;
+  background-color: #fff;
+  padding-top: 0;
+}
 
+p {
+  padding-top: 35px;
+}
 
 
 

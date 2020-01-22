@@ -68,7 +68,7 @@ h1  {
   flex-wrap: wrap;
   flex-direction: column;
   justify-content: space-between;
-  padding-top: 89px;
+  margin-top: 89px;
   padding-bottom: 84px;
 }
 
@@ -119,6 +119,11 @@ a:first-child {
   width: 100%;
 }
 
+picture {
+  min-height: 300px;
+  min-width: 300px;
+}
+
 .main-pad {
   padding-left: 23px;
   padding-right: 23px;
@@ -129,7 +134,7 @@ h2 {
   font-size: 50px;
   font-weight: bold;
   color: #e7e7e7;
-  margin-bottom: 245px;
+  margin-bottom: 19px;
   line-height: 60px;
   padding-left: 23px; 
   padding-right: 23px;
@@ -137,10 +142,12 @@ h2 {
 }
 
 .footballer {
-  position: absolute;
+  display: block;
+margin: 0 auto;
+/*  position: absolute;
   z-index: 1;
   top: 30%;
-  left: 20%;
+  left: 20%;*/
   /*max-width: 100%;*/
   /*transform: translate(-50%, -50%);*/
 }
@@ -161,6 +168,7 @@ p {
 
 .athe-list-item, .play-list-item {
   background-color: #fafafa;
+  margin-top: -60px;
   padding-top: 60px;
   padding-left: 23px; 
   padding-right: 23px;
@@ -208,7 +216,7 @@ h3 {
 
 .list-header {
   display: flex;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   align-items: flex-start;
 }
 
@@ -255,10 +263,12 @@ h3 {
 }
 
 .basket {
-  position: absolute;
+/*position: absolute;
   z-index: 1;
   top: 30%;
-  left: 2%;
+  left: 2%;*/
+  display: block;
+  margin: 0 auto;
 }
 
 .article-img {
@@ -379,4 +389,8 @@ h3 {
   text-transform: uppercase;
   color: #9b8ec1;
   margin-bottom: 50px;
+}
+
+.foot {
+  padding-bottom: 10px;
 }
