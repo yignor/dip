@@ -85,7 +85,8 @@ justify-content: center;
 h2 {
 	padding-top: 116px;
 	font-size: 80px;
-	padding-left: 827px;	
+	padding-left: 827px;
+  margin-bottom: 0px;
 }
 
 .footballer {
@@ -98,9 +99,44 @@ h2 {
 .athe-list-item {
   padding-left: 827px;
   padding-right: 33px;
-  padding-top: 0;
+  padding-top: 69px;
+}
+
+h3 {
+  font-size: 36px;
 }
 
 
+.athe-p {
+  font-size: 20px;
+  margin-top: 30px;
+  padding-bottom: 59px;
+}
+
+.athe-list-item:first-child, .play-list-item:first-child {
+  margin-top: 0px;
+  background-color: #fff;
+}
+
+.basket {
+  position: absolute;
+  z-index: 1;
+  top: 30%;
+  right: -54%;
+}
+.art-cont-item {
+  display: flex;
+  flex-wrap: nowrap;
+  /*width: 100%;*/
+}
+.article-img {
+  display: block;
+}
+.art-cont-item:nth-child(2) .article-picture {
+  order: 2;
+}
+.article-content, .article-img {
+  width: 100%;
+}
 
 }

@@ -268,12 +268,8 @@ h3 {
 }
 
 .basket {
-/*position: absolute;
-  z-index: 1;
-  top: 30%;
-  left: 2%;*/
-  display: block;
-  margin: 0 auto;
+  display: flex;
+  justify-content: center;
 }
 
 .article-img {
@@ -330,6 +326,11 @@ h3 {
 .article-content {
  margin-left: 20px;
  margin-right: 20px;
+}
+
+.article-img {
+  object-fit: cover;
+  width: 100%;
 }
 
 .last-block {
