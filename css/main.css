@@ -142,7 +142,7 @@ h2 {
 }
 
 .footballer {
-  display: block;
+  display: flex;
 margin: 0 auto;
 /*  position: absolute;
   z-index: 1;
@@ -150,6 +150,7 @@ margin: 0 auto;
   left: 20%;*/
   /*max-width: 100%;*/
   /*transform: translate(-50%, -50%);*/
+  justify-content: center;
 }
 
 .athe-header, .players-header {

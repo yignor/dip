@@ -102,9 +102,16 @@ h2 {
 /*  top: 30%;
   left: 20%;*/
   left: -22%;
-  top: 40%;
+  top: 10%;
 }
 
+.athlets, .players {
+position: relative;
+}
+
+.athe-header, .players-header {
+  position: static;
+ }
 
 .athe-list-item, .athe-header {
   padding-left: 293px;
@@ -131,8 +138,8 @@ p {
 .basket {
 position: absolute;
   z-index: 1;
-  top: 30%;
-  right: -9%;
+  top: 5%;
+  right: 0;
 /*  display: block;
   margin: 0 auto;*/
 }
@@ -141,7 +148,6 @@ position: absolute;
   padding-right: 309px;
   padding-left: 33px;
 }
-
 
 .playp:nth-child(3) .play-p {
   font-size: 18px;
