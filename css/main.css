@@ -156,6 +156,8 @@ margin: 0 auto;
 .athe-header, .players-header {
   position: relative;
   /*width: 100%*/
+  margin-left: auto;
+  margin-right: auto;
 }
 
 p {
@@ -277,13 +279,13 @@ h3 {
   max-height: 100%;
 }
 
-.article-content {
+.art-cont-item {
   position: relative;
 }
 
 .count-block {
   position: absolute;
-  top: -30%;
+  top: -40%;
 }
 
 .count-block:nth-child(3) {
