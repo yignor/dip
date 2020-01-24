@@ -285,7 +285,7 @@ h3 {
 
 .count-block {
   position: absolute;
-  top: -40%;
+  top: 60%;
 }
 
 .count-block:nth-child(3) {
