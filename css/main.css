@@ -105,6 +105,7 @@ a:first-child {
   font-size: 8px;
   font-weight: bold;
   text-transform: uppercase;
+  /*display: flex;*/
 }
 
 .main-pluses {
@@ -285,11 +286,11 @@ h3 {
 */
 .count-block {
   position: absolute;
-  top: -30%;
+  top: -70px;
 }
 
 .count-block:nth-child(3) {
-  top: 10%;
+  top: -80px;
 }
 
 .article-h {
@@ -380,10 +381,13 @@ h3 {
 .dl-conteiner {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  /*justify-content: center;*/
+  flex-direction: column;
+  align-items: center;
 }
 
 .dl-title {
+  display: flex;
   font-size: 32px;
   font-weight: bold;
   text-transform: uppercase;

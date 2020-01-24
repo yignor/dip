@@ -89,11 +89,19 @@ h2 {
   margin-bottom: 0px;
 }
 
+.athlets, .players {
+position: relative;
+}
+
+.athe-header, .players-header {
+  position: static;
+ }
+
 .footballer {
 	position: absolute;
   	z-index: 1;
-  	top: 30%;
-  	left: 0%;
+  	top: 5%;
+  	left: 10%;
 }
 
 .athe-list-item {
