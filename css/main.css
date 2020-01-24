@@ -279,13 +279,13 @@ h3 {
   max-height: 100%;
 }
 
-.art-cont-item {
+/*.article-content {
   position: relative;
 }
-
+*/
 .count-block {
   position: absolute;
-  top: 60%;
+  top: -30%;
 }
 
 .count-block:nth-child(3) {
@@ -328,6 +328,7 @@ h3 {
 .article-content {
  margin-left: 20px;
  margin-right: 20px;
+ position: relative;
 }
 
 .article-img {
