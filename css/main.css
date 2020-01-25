@@ -106,6 +106,7 @@ a:first-child {
   font-size: 8px;
   font-weight: bold;
   text-transform: uppercase;
+  /*display: flex;*/
 }
 
 .main-pluses {
@@ -151,6 +152,8 @@ h2 {
 .athe-header, .players-header {
   position: relative;
   /*width: 100%*/
+  margin-left: auto;
+  margin-right: auto;
 }
 
 p {
@@ -272,17 +275,17 @@ h3 {
   max-height: 100%;
 }
 
-.article-content {
+/*.article-content {
   position: relative;
 }
-
+*/
 .count-block {
   position: absolute;
-  top: -30%;
+  top: -70px;
 }
 
 .count-block:nth-child(3) {
-  top: 10%;
+  top: -80px;
 }
 
 .article-h {
@@ -321,6 +324,7 @@ h3 {
 .article-content {
  margin-left: 20px;
  margin-right: 20px;
+ position: relative;
 }
 
 .article-img {
@@ -372,10 +376,13 @@ h3 {
 .dl-conteiner {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  /*justify-content: center;*/
+  flex-direction: column;
+  align-items: center;
 }
 
 .dl-title {
+  display: flex;
   font-size: 32px;
   font-weight: bold;
   text-transform: uppercase;
