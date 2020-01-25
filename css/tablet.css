@@ -101,12 +101,14 @@ h2 {
   z-index: 1;
 /*  top: 30%;
   left: 20%;*/
-  left: -22%;
+  left: -150px;
   top: 10%;
 }
 
 .athlets, .players {
 position: relative;
+/*display: flex;*/
+/*flex-direction: column;*/
 }
 
 .athe-header, .players-header {
@@ -117,6 +119,7 @@ position: relative;
   padding-left: 293px;
   padding-right: 33px;
   padding-top: 0;
+  /*width: 100%;*/
 }
 
 p {
@@ -136,7 +139,7 @@ p {
 }
 
 .basket {
-position: absolute;
+  position: absolute;
   z-index: 1;
   top: 5%;
   right: 0;
@@ -147,9 +150,10 @@ position: absolute;
 .play-list-item, .players-header {
   padding-right: 309px;
   padding-left: 33px;
+  /*width: 100%;*/
 }
 
-.playp:nth-child(3) .play-p {
+.play-list-item:nth-child(3) .play-p {
   font-size: 18px;
 }
 
@@ -194,6 +198,10 @@ h3 {
   width: 130px;
   height: 136px;
   padding: 24px 12px;
+}
+
+.dl-conteiner {
+  flex-direction: column;
 }
 
 .dl-title {

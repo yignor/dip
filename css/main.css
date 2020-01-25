@@ -5,6 +5,7 @@
 
 body {
   font-family: Opensans, san-serif;
+
 }
 
 .start-page {
@@ -143,13 +144,7 @@ h2 {
 
 .footballer {
   display: flex;
-margin: 0 auto;
-/*  position: absolute;
-  z-index: 1;
-  top: 30%;
-  left: 20%;*/
-  /*max-width: 100%;*/
-  /*transform: translate(-50%, -50%);*/
+  margin: 0 auto;
   justify-content: center;
 }
 

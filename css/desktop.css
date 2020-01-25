@@ -106,6 +106,10 @@ h3 {
   font-size: 36px;
 }
 
+.article-h {
+  font-size: 80px;
+  margin-bottom: 77px;
+}
 
 .athe-p {
   font-size: 20px;
@@ -139,9 +143,64 @@ h3 {
   width: 50%;
   padding-left: 192px;
   padding-right: 117px;
-  margin-top: 262px;
-  margin-bottom: 283px;
+  margin-top: auto;
+  margin-bottom: auto;
   box-sizing: border-box;
 }
+.count-ah {
+  width: 168px;
+  height: 155px;
+}
+
+.article-p {
+  font-size: 24px;
+  line-height: 28px;
+}
+
+.count-block {
+  top: -30%;
+  left: -11%;
+}
+
+.art-cont-item:nth-child(2) .article-content:nth-child(2) .count-block {
+  left: 93%;
+
+}
+
+.dl-conteiner {
+  flex-direction: column;
+
+}
+
+.desktop-conteiner {
+  display: flex;
+  justify-content: center;
+}
+
+.last-logo {
+  margin-right: 37px;
+  margin-left: 0;
+  padding: 25px 12px;
+  width: 130px;
+  height: 87px;
+}
+
+.dl-title {
+  font-weight: 80px;
+  margin-bottom: 22px;
+}
+
+.dl-descripton {
+  font-weight: 30px;
+}
+
+
+.footer-logo {
+  /*margin-top: 262px;*/
+  /*margin-bottom: 52px;*/
+  width: 190px;
+  height: 52px;
+}
+
 
 }
