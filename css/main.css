@@ -110,8 +110,8 @@ a:first-child {
 }
 
 .main-pluses {
-  display: flex;
-  flex-wrap: wrap;
+/*  display: flex;
+  flex-wrap: wrap;*/
 }
 
 .athlets, .players {

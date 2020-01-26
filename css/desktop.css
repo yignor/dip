@@ -116,14 +116,16 @@ flex-direction: column;
   /*padding-left: 827px;*/
   /*padding-right: 33px;*/
   padding-left: 60%;
-  padding-right: auto;
+  /*padding-right: auto;*/
   padding-top: 69px;
+  /*flex-direction: flex-end;*/
 }
 
 .players-header, .play-list-item {
   /*padding-right: 972px;*/
   /*padding-left: 192px;*/
-  padding-right: 60%;
+  /*padding-right: 60%;*/
+  flex-direction: flex-start;
   padding-left: 10%;
   margin-left: 0;
 }
@@ -136,6 +138,7 @@ h3 {
 .article-h {
   font-size: 80px;
   margin-bottom: 77px;
+  line-height: 60px;
 }
 
 .athe-p {
@@ -154,6 +157,7 @@ h3 {
   z-index: 1;
   top: 0%;
   right: 0;
+  flex-shrink: 1;
 }
 .art-cont-item {
   display: flex;
