@@ -1,4 +1,4 @@
-@media (min-width: 1920px) {
+@media (min-width: 961px) {
 
 .start-page {
   background-image: url(../images/football_1920.jpg);
@@ -17,8 +17,8 @@ h1 {
 }
 
 .start-conteiner {
-  padding-left: 181px;
-  padding-right: 181px;
+  /*padding-left: 181px;*/
+  /*padding-right: 181px;*/
 }
 
 .header-h2 {
@@ -67,7 +67,7 @@ justify-content: center;
 }
 
 .download-app {
-  margin-left: 284px;
+  /*margin-left: 284px;*/
   margin-left: 28px;
 }
 
@@ -90,11 +90,15 @@ h2 {
 }
 
 .athe-header {
-  margin-left: 827px;
+  padding-left: 60%;
+  margin-right: 0;
+  margin-left: 0;
+  /*padding-right: auto;*/
 }
 
 .athlets, .players {
 position: relative;
+flex-direction: column;
 }
 
 .athe-header, .players-header {
@@ -109,14 +113,18 @@ position: relative;
 }
 
 .athe-list-item {
-  padding-left: 827px;
-  padding-right: 33px;
+  /*padding-left: 827px;*/
+  /*padding-right: 33px;*/
+  padding-left: 60%;
+  padding-right: auto;
   padding-top: 69px;
 }
 
 .players-header, .play-list-item {
-  padding-right: 972px;
-  padding-left: 192px;
+  /*padding-right: 972px;*/
+  /*padding-left: 192px;*/
+  padding-right: 60%;
+  padding-left: 10%;
   margin-left: 0;
 }
 
@@ -160,8 +168,8 @@ h3 {
 }
 .article-content {
   width: 50%;
-  padding-left: 192px;
-  padding-right: 117px;
+  /*padding-left: 192px;*/
+  /*padding-right: 117px;*/
   margin-top: auto;
   margin-bottom: auto;
   box-sizing: border-box;

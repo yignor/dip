@@ -1,4 +1,4 @@
-@media (min-width: 768px) and (max-width: 1919px) {
+@media (min-width: 641px) and (max-width: 960px) {
 
 .start-page {
   background-image: url(../images/football_1280.jpg);
@@ -117,7 +117,7 @@ position: relative;
 
 .athe-list-item, .athe-header {
   padding-left: 293px;
-  padding-right: 33px;
+  /*padding-right: 33px;*/
   padding-top: 0;
   /*width: 100%;*/
 }
