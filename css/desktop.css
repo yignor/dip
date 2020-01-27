@@ -147,7 +147,7 @@ h3 {
 
 .article-h {
   font-size: 80px;
-  margin-bottom: auto; /*77px*/
+  margin-bottom: 110px; /*77px*/
   line-height: 60px;
 }
 
@@ -206,11 +206,17 @@ h3 {
 .count-ah {
   width: 168px;
   height: 155px;
+  font-size: 24px;
   }
+
+ .count-ah::after {
+ 	width: 24px;
+ }
 
 .article-p {
   font-size: 24px;
-  /*line-height: 28px;*/
+  line-height: 28px;
+  margin-bottom: auto;
 }
 
 .count-block {
