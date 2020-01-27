@@ -16,10 +16,6 @@ h1 {
 	margin-left: 12px;
 }
 
-.start-conteiner {
-  /*padding-left: 181px;*/
-  /*padding-right: 181px;*/
-}
 
 .header-h2 {
 	padding-left: 452px;
@@ -30,7 +26,6 @@ h1 {
   height: 77px;
   width: 311px;
   flex-wrap: nowrap;
-  padding: auto;
 }
 
 .icon {
@@ -53,6 +48,10 @@ a {
   color: #fff;
   background-color: #5e42b0;
   border-radius: 40px;
+}
+
+a:hover {
+  background-color: #705aaf;
 }
 
 a:first-child {
@@ -196,8 +195,8 @@ h3 {
   margin: auto 0;
   box-sizing: border-box;
   position: static;
-  display: flex;
-  flex-direction: column;
+/*  display: flex;
+  flex-direction: column;*/
 }
 .count-ah {
   width: 168px;
@@ -207,7 +206,6 @@ h3 {
 .article-p {
   font-size: 24px;
   line-height: 28px;
-  padding-bottom: auto;
 }
 
 .count-block {
@@ -222,7 +220,8 @@ h3 {
 
 .dl-conteiner {
   flex-direction: column;
-
+  align-items: flex-start;
+  justify-content: center;
 }
 
 .desktop-conteiner {
@@ -239,13 +238,13 @@ h3 {
 }
 
 .dl-title {
-  font-weight: 80px;
+  font-size: 80px;
   line-height: 60px;
-  /*margin-bottom: 22px;*/
+  margin-bottom: 22px;
 }
 
 .dl-descripton {
-  font-weight: 30px;
+  font-size: 30px;
   line-height: 34px;
 }
 

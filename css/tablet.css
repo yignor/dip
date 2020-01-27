@@ -36,7 +36,6 @@ h1  {
   height: 77px;
   width: 311px;
   flex-wrap: nowrap;
-  padding: auto;
 }
 
 .icon {
@@ -86,6 +85,9 @@ justify-content: center;
   font-weight: bold;
 }
 
+
+
+
 /* Закончили шапку, пошли верстать спортсменов */
 
 h2 {
@@ -113,6 +115,7 @@ position: relative;
 
 .athe-header, .players-header {
   position: static;
+  margin-left: 0;
  }
 
 .athe-list-item, .athe-header {
@@ -186,6 +189,10 @@ h3 {
 .article-content, .last-conteiner {
   margin-left: 33px;
   margin-right: 33px;
+}
+
+.article-picture {
+  display: block;
 }
 
 .last-conteiner {
