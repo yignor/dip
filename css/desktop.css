@@ -149,6 +149,7 @@ h3 {
   font-size: 80px;
   margin-bottom: 110px; /*77px*/
   line-height: 60px;
+  margin-top: 30%;
 }
 
 .athe-p {
@@ -221,12 +222,15 @@ h3 {
 
 .count-block {
   top: 29%;
-  left: 46%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, 0)
 }
 
 .art-cont-item:nth-child(2) .article-content:nth-child(2) .count-block {
-  left: 46%;
-
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, 0)
 }
 
 .dl-conteiner {
