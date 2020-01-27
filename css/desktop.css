@@ -166,12 +166,17 @@ h3 {
 .basket {
   position: absolute;
   z-index: 1;
-  top: 10%;
+  top: 0;
   left: 50%;
   width: 50%;
   /*display: flex;*/
   /*flex: 1;*/
 }
+
+.play-p {
+	font-size: 20px;
+}
+
 .art-cont-item {
   display: flex;
   position: relative;
